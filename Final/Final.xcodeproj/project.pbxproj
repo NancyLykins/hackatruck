@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		810A29C52C04AB9E00CC23EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A29C42C04AB9E00CC23EA /* ContentView.swift */; };
 		810A29C72C04AF4A00CC23EA /* SinalForcaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A29C62C04AF4A00CC23EA /* SinalForcaView.swift */; };
+		810A29C92C04F4C100CC23EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A29C82C04F4C100CC23EA /* ContentView.swift */; };
+		810A29CD2C05027500CC23EA /* DnsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A29CC2C05027500CC23EA /* DnsModel.swift */; };
+		810A29CF2C05030900CC23EA /* TesteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A29CE2C05030900CC23EA /* TesteView.swift */; };
+		810A29D12C0511E000CC23EA /* SinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A29D02C0511E000CC23EA /* SinalView.swift */; };
 		81C26BEB2BFF5F9A00E260C3 /* FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26BEA2BFF5F9A00E260C3 /* FinalApp.swift */; };
 		81C26BEF2BFF5F9C00E260C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C26BEE2BFF5F9C00E260C3 /* Assets.xcassets */; };
 		81C26BF22BFF5F9C00E260C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C26BF12BFF5F9C00E260C3 /* Preview Assets.xcassets */; };
 		81C26BFC2BFF5F9C00E260C3 /* FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26BFB2BFF5F9C00E260C3 /* FinalTests.swift */; };
 		81C26C062BFF5F9C00E260C3 /* FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26C052BFF5F9C00E260C3 /* FinalUITests.swift */; };
 		81C26C082BFF5F9C00E260C3 /* FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26C072BFF5F9C00E260C3 /* FinalUITestsLaunchTests.swift */; };
-		81C26C152BFF670900E260C3 /* anotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26C142BFF670900E260C3 /* anotherView.swift */; };
+		81C26C152BFF670900E260C3 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26C142BFF670900E260C3 /* StatusView.swift */; };
 		81C26C172C00C41300E260C3 /* DNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26C162C00C41300E260C3 /* DNSView.swift */; };
 		81C26C1B2C00C5E600E260C3 /* TraceRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26C1A2C00C5E600E260C3 /* TraceRouteModel.swift */; };
 		81C26C1D2C00D0D900E260C3 /* TraceRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C26C1C2C00D0D900E260C3 /* TraceRouteView.swift */; };
@@ -42,8 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		810A29C42C04AB9E00CC23EA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../.Trash/ContentView.swift; sourceTree = "<group>"; };
 		810A29C62C04AF4A00CC23EA /* SinalForcaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinalForcaView.swift; sourceTree = "<group>"; };
+		810A29C82C04F4C100CC23EA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../.Trash/ContentView.swift; sourceTree = "<group>"; };
+		810A29CC2C05027500CC23EA /* DnsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnsModel.swift; sourceTree = "<group>"; };
+		810A29CE2C05030900CC23EA /* TesteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteView.swift; sourceTree = "<group>"; };
+		810A29D02C0511E000CC23EA /* SinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinalView.swift; sourceTree = "<group>"; };
 		81C26BE72BFF5F9A00E260C3 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C26BEA2BFF5F9A00E260C3 /* FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalApp.swift; sourceTree = "<group>"; };
 		81C26BEE2BFF5F9C00E260C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,7 +59,7 @@
 		81C26C012BFF5F9C00E260C3 /* FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C26C052BFF5F9C00E260C3 /* FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITests.swift; sourceTree = "<group>"; };
 		81C26C072BFF5F9C00E260C3 /* FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		81C26C142BFF670900E260C3 /* anotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherView.swift; sourceTree = "<group>"; };
+		81C26C142BFF670900E260C3 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		81C26C162C00C41300E260C3 /* DNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSView.swift; sourceTree = "<group>"; };
 		81C26C1A2C00C5E600E260C3 /* TraceRouteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraceRouteModel.swift; sourceTree = "<group>"; };
 		81C26C1C2C00D0D900E260C3 /* TraceRouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TraceRouteView.swift; path = ../../TraceRouteView.swift; sourceTree = "<group>"; };
@@ -113,15 +119,18 @@
 				81C26BEA2BFF5F9A00E260C3 /* FinalApp.swift */,
 				81C26BEE2BFF5F9C00E260C3 /* Assets.xcassets */,
 				81C26BF02BFF5F9C00E260C3 /* Preview Content */,
-				81C26C142BFF670900E260C3 /* anotherView.swift */,
+				81C26C142BFF670900E260C3 /* StatusView.swift */,
 				81C26C1C2C00D0D900E260C3 /* TraceRouteView.swift */,
 				81C26C1A2C00C5E600E260C3 /* TraceRouteModel.swift */,
-				810A29C42C04AB9E00CC23EA /* ContentView.swift */,
+				810A29C82C04F4C100CC23EA /* ContentView.swift */,
 				81C26C162C00C41300E260C3 /* DNSView.swift */,
 				81C26C1E2C00D53000E260C3 /* SpeedTestView.swift */,
 				81C26C202C00D6E400E260C3 /* PingView.swift */,
 				81C26C222C00D71400E260C3 /* PingModel.swift */,
 				810A29C62C04AF4A00CC23EA /* SinalForcaView.swift */,
+				810A29CC2C05027500CC23EA /* DnsModel.swift */,
+				810A29CE2C05030900CC23EA /* TesteView.swift */,
+				810A29D02C0511E000CC23EA /* SinalView.swift */,
 			);
 			path = Final;
 			sourceTree = "<group>";
@@ -281,13 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810A29CD2C05027500CC23EA /* DnsModel.swift in Sources */,
 				81C26C1F2C00D53000E260C3 /* SpeedTestView.swift in Sources */,
 				81C26C172C00C41300E260C3 /* DNSView.swift in Sources */,
 				81C26C212C00D6E400E260C3 /* PingView.swift in Sources */,
 				81C26C232C00D71400E260C3 /* PingModel.swift in Sources */,
-				81C26C152BFF670900E260C3 /* anotherView.swift in Sources */,
-				810A29C52C04AB9E00CC23EA /* ContentView.swift in Sources */,
+				81C26C152BFF670900E260C3 /* StatusView.swift in Sources */,
+				810A29CF2C05030900CC23EA /* TesteView.swift in Sources */,
 				81C26C1B2C00C5E600E260C3 /* TraceRouteModel.swift in Sources */,
+				810A29D12C0511E000CC23EA /* SinalView.swift in Sources */,
+				810A29C92C04F4C100CC23EA /* ContentView.swift in Sources */,
 				810A29C72C04AF4A00CC23EA /* SinalForcaView.swift in Sources */,
 				81C26C1D2C00D0D900E260C3 /* TraceRouteView.swift in Sources */,
 				81C26BEB2BFF5F9A00E260C3 /* FinalApp.swift in Sources */,
